@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Página Home</title>
+</head>
+<body>
+    <h1>Título da página</h1>
+    <hr/>
+
+    {{#showWelcome}}
+        Opa {{ user.name }} {{ lastName }}, tudo bem?
+    {{/showWelcome}}
+
+    {{#showOld}}
+        Como vai a vida?
+    {{/showOld}}
+</body>
+</html>
+
+
+
+<br/>
+<br/>
+<br/>
+{{#showWelcome}} O "#" é o inicio da condicional, caso a variável dentro seja TRUE, irá exibir o que estiver dentro dela
+{{/showWelcome}} Serve para encerra a condicional
