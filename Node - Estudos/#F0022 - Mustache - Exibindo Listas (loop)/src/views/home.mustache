@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Página Home</title>
+</head>
+<body>
+    <h1>Título da página</h1>
+    <hr/>
+
+    Opa {{ name }} {{ lastName }}, tudo bem?    
+    {{#showOld}}
+        Como vai a vida?
+    {{/showOld}}
+
+    <hr/>
+
+    <h2>Produtos</h2>
+
+    <ul>
+        {{#products}}
+            <li> {{ title }} - R$ {{ price }} </li>
+        {{/products}}
+    </ul>
+
+    <hr/>
+
+    <ul>
+        {{#frasesDoDia}}
+            <li>{{.}}</li>
+        {{/frasesDoDia}}
+    </ul>
+    O "{{.}}" vai usar o item específico do loop que está informando
+</body>
+</html>
