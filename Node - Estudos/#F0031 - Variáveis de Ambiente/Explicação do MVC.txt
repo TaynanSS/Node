@@ -1,0 +1,9 @@
+MVC
+
+M = Model = modelo
+V = View = visualização => Já está sendo utilizado na pasta src/views
+C = Controller = controle
+
+
+O MVC é um conceito, organização de informações.
+É um modelo de organização. Separar os arquivos de acordo com suas funcionalidades.
